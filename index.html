@@ -64,7 +64,7 @@
     
         <div class="p-8">
             <h1 class="text-center font-bold lg:text-6xl pb-8 text-3xl">
-                Freshness <span class="text-green-700">You Can<br>Count</span> On, Prices You’ll Love!
+                Freshness <span class="text-green-700 animate-pulse">You Can<br>Count</span> On, Prices You’ll Love!
             </h1>
             <p class="text-center text-2xl">
                 Shop your daily essentials at unbeatable prices. From fresh produce to pantry<br>staples, we’ve got you covered every day!
@@ -275,7 +275,7 @@
         </section>
     </main>
 
-    <section class="py-12">
+    <section class="py-12 pb-60">
         <div class="max-w-7xl mx-auto px-4">
             <h2 class="text-green-700 text-3xl font-bold mb-8">Available & Offers</h2>
 
@@ -306,8 +306,56 @@
 
         </div>
     </section>
-    <footer>
-
+    <footer class="bg-green-700 relative">
+        <section class=" py-16 ">
+            <!-- Subscription Box -->
+            <div class="max-w-4xl mx-auto rounded-2xl shadow-lg p-8 flex flex-col lg:flex-row items-center gap-6 absolute bottom-60 -top-52 left-96 right-96 justify-center bg-[#f2ebde]">
+                <img src="./assets/vegetable-busket.png" alt="Grocery Basket" class="w-48 lg:w-64">
+                <div class="flex-1 text-center lg:text-left">
+                    <h2 class="text-2xl font-bold text-gray-900">Get Grocery News!</h2>
+                    <p class="text-gray-600">Exclusive training tips, tricks, product deals, and more.</p>
+                    <div class="mt-4 items-center space-y-3">
+                        <div>
+                            <input type="email" placeholder="Enter email..." 
+                            class="w-full p-3 border rounded-lg focus:ring-2  outline-none">
+                        </div>
+                        <div>
+                            <button class="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition">Subscribe</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Footer -->
+            <div class="bg-green-700 mt-12 py-12 text-white pt-20">
+                <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 px-6">
+                    <!-- Logo & Description -->
+                    <div>
+                        <img src="./assets/logo-footer.png" alt="">
+                        <p class="text-gray-200 mt-2">
+                            Discover a world of treats, toys, and essentials handpicked for your furry friends.
+                        </p>
+                    </div>
+                    <!-- Links -->
+                    <div class="flex flex-col space-y-2">
+                        <p class="">Product</p>
+                        <p class="">Services</p>
+                        <p class="">Contact Us</p>
+                    </div>
+                    <!-- Social Media -->
+                    <div>
+                        <h4 class="font-bold mb-2">Follow Us</h4>
+                        <div class="flex space-x-4">
+                            <i class="fab fa-facebook"></i> 
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-linkedin"></i> 
+                            <i class="fab fa-youtube"></i>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
